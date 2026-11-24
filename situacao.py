@@ -1,4 +1,4 @@
-# Autor:
+# Autor:Aquiles Rodrigues Vieira Dutra
 
 def situacao(m):
     """Devolve "Aprovado" se a media for 60 ou mais;
@@ -6,4 +6,7 @@ def situacao(m):
     Ex.: situacao(60) -> "Aprovado"
     """
     # complete aqui: troque o return "?" pelo if
-    return "?"
+    if m >= 60:
+        return "Aprovado"
+    else:
+        return "Reprovado"
